@@ -1,0 +1,15 @@
+2024-03-02 10:05:02,218:__main__:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "c:\Python Folder\Product\main.py", line 23, in <module>
+    pr_1 = Product("Phone", -1)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python Folder\Product\product.py", line 8, in __init__
+    raise MoneyError("Price cannot be negative.")
+exception.MoneyError: MoneyError: Price cannot be negative.
+2024-03-02 10:18:45,757:__main__:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "c:\Python Folder\Product\main.py", line 28, in <module>
+    cart.add_product(pr_1, 's')
+  File "c:\Python Folder\Product\cart.py", line 13, in add_product
+    raise TypeError("Quantity must be a number.")
+TypeError: Quantity must be a number.
